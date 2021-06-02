@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/back_color"
     tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/idEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/idLLFormatting"
+        android:layout_above="@id/idLL"
         android:layout_alignParentTop="true"
         android:background="@color/back_color"
         android:gravity="start|top"
@@ -92,9 +93,9 @@
             android:id="@+id/idBtnSub"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_weight="1"
             android:gravity="center"
-            android:layout_gravity="center"
             android:text="-"
             android:textAlignment="center"
             android:textColor="@color/white"
