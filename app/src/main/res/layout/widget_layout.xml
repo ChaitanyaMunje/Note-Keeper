@@ -17,7 +17,7 @@
             android:id="@+id/appWidgetTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Text"
+            android:text="Set your Note"
             android:textColor="@color/yellow"
             android:textSize="20sp"
             tools:layout_editor_absoluteX="1dp"
